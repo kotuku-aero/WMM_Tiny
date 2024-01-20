@@ -37,7 +37,7 @@ float wmm_get_date(uint8_t year, uint8_t month, uint8_t date);
  * @param time_years The date as returned from wmm_get_date
  * @param dec Pointer to float holding calculated magnetic variation (also known as declination). Negative is west.
  * @note The altitude used is the ellipsoid at the supplied latitude/longitude, not the earth's surface. This will
- *       give very small errors in some parts of the world comapred to sea level.
+ *       give very small errors in some parts of the world compared to sea level.
  */
 void E0000(float glat, float glon, float time_years, float *dec);
 
